@@ -16,13 +16,13 @@ mongosh
 ### 1. Create a Database named Codetribe:
 
 Inside the MongoDB shell, run:
-use Codetribe
+- use Codetribe
 This will create the Codetribe database if it doesn't already exist and switch to it.
 
 ### 2. Create the Facilitators Collection and Insert a Document:
 
 To create the Facilitators collection and insert a document:
-db.Facilitators.insertOne({
+- db.Facilitators.insertOne({
   Name: "John Doe",
   Location: "Johannesburg",
   Course: "Web Development"
@@ -31,7 +31,7 @@ db.Facilitators.insertOne({
 ### 3. Create the Trainees Collection and Insert a Document:
 
 To create the Trainees collection and insert a document:
-db.Trainees.insertOne({
+- db.Trainees.insertOne({
   Name: "Jane Smith",
   Location: "Cape Town",
   Facilitator: "John Doe"
